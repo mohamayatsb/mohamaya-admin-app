@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="auth.js"></script>
+
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://firebasestorage.googleapis.com/v0/b/mohamyats.appspot.com/o/Mohamaya%20Logo.png?alt=media&token=9894c470-a9f8-4376-85f1-fa958ddd2315" alt="Logo" class="logo">
+
+            <div onclick="openPage('user-porfile.html')">
+            <div class="profile-icon">
+                <img src="https://firebasestorage.googleapis.com/v0/b/mohamyats.appspot.com/o/Profile%20Image.png?alt=media&token=0ec78207-0ced-4d8a-b848-7834a7e2d2e1" alt="Profile Icon">
+            </div>
+            </div>
+        </header>
+        <main>
+            <div class="features">
+                <div class="feature" onclick="openPage('ssc-batch2018.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Registration Icon">
+                    <p>এস.এস.সি ২০১৮ ব্যাচের সদস্যরা</p>
+                </div>
+                <div class="feature" onclick="openPage('ssc-batch-2019.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Prescription Icon">
+                    <p>এস.এস.সি ২০১৯ ব্যাচের সদস্যরা</p>
+                </div>
+
+                <div class="feature" onclick="openPage('puja-monalisa-members.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Account Icon">
+                    <p>মোনালিসার সদস্য</p>
+                </div>
+
+                <div class="feature" onclick="openPage('puja-mohanaya-seniors.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Account Icon">
+                    <p>মহায়ামায়া সিনিয়ারদের লিস্ট</p>
+                </div>
+
+                <div class="feature" onclick="openPage('mohamaya-registered-members.html')">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/webservers-e854f.appspot.com/o/members%20(1).svg?alt=media&token=0404e097-69c1-4c00-9ba7-f85c5dc5f169" alt="Account Icon">
+                    <p>মহায়ামায়া রেজিস্ট্রেশন করা সদস্য লিস্ট</p>
+                </div>
+                
+            </div>
+        </main>
+
+        <!--
+        <footer>
+            <div class="footer-menu">
+                <div class="menu-item">
+                    <img src="icons/Home (8).svg" alt="Home Icon">
+                    <p>হোম</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Knowladge.svg" alt="Info Icon">
+                    <p>জ্ঞান অর্জন</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Members.svg" alt="Activity Icon">
+                    <p>কমিটি</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Updates.svg" alt="Update Icon">
+                    <p>আপডেট</p>
+                </div>
+                <div class="menu-item">
+                    <img src="icons/Settings (1).svg" alt="Settings Icon">
+                    <p>সেটিংস</p>
+                </div>
+            </div>
+        </footer>
+        -->
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
